@@ -1,0 +1,54 @@
+header{
+    
+    .outer{
+        position: fixed;
+        .flexOuterJAD(space-between, center, row);
+        width: 100%;
+        padding: 2%;
+        background-color: @charcoalNav;
+        border-bottom-left-radius:15%;
+        border-bottom-right-radius:15%;
+        border-bottom: 3px solid @borders;
+        top: 0%;
+        max-height: 19vh;
+        };
+        
+        
+        div{
+            width:49%;
+            text-align: center;
+            
+            
+        
+        }
+        h1{
+            @media @mobile{font-size: 3rem;}
+            @media @tablet{font-size: 4rem;}
+        }
+        h2{
+            @media @mobile{font-size: 2rem;}
+            @media @tablet{font-size: 2rem;}
+
+        }
+        nav{
+            .flexOuterJAD(space-around, center, row);
+            
+            width:49%; 
+        
+            a{
+                
+                padding: 2%;
+                text-decoration: none;
+                color: @blackShadows;
+                font-size: 3.5rem;
+                text-align: center;
+                border-bottom: 3px solid @borders;
+                border-radius: 15%;
+                &:hover{
+                    color: @textColor;
+                }
+                @media @mobile{font-size: 2rem;}
+                @media @tablet{font-size: 2rem;}
+            } 
+    }
+}

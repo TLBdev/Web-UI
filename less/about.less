@@ -1,0 +1,119 @@
+.firstTitle{
+    margin-top: 20vh;
+    @media @tablet{
+        margin-top: 15vh;        
+    }
+    
+}
+.secTitle{
+    text-align: center;
+    
+}
+.colPicRightA{
+    background-color: @outerBox;
+    
+    border-top: 2px solid @borders;
+    
+
+    .flexOuterJAD(space-evenly, center, row);
+    margin: 1% 1%;
+    
+    
+    background-color: @outerBox;
+    
+    .outer{
+        width: 100%;
+        .flexOuterJAD(space-around, center, row);
+        @media @tablet{
+            flex-direction: column-reverse; 
+            padding-top: 2%;          
+        }
+        .innerT{
+            width: 45%;
+            @media @tablet{
+                width: 80%;         
+            }
+            padding: 2% 2%;
+            background-color: @innerBox;
+            h2{
+                font-size: 5rem;
+            }
+            p{
+                font-size: 3rem;
+            }
+            i{
+                background-color: @marginColor;
+                font-size: 3rem;
+                padding: 2%;
+                border-radius: 50%;
+                color: @innerBox;
+                margin: 0% 1%;
+                &:hover{
+                    background-color: @innerBox;
+                    color: @marginColor;
+                }
+            }
+
+        }
+        .innerI{
+            width: 55%;
+            .flexOuterJAD(center, center, row);
+            background-color: @innerBox;
+            
+        }
+    };
+
+}
+
+.colPicLeftA{
+    background-color: @outerBox;
+    
+
+    .flexOuterJAD(space-evenly, center, row-reverse);
+    margin: 1% 1%;
+    
+    background-color: @outerBox;
+    .outer{
+        width: 100%;
+        .flexOuterJAD(space-around, center, row-reverse);
+        @media @tablet{
+            flex-direction: column-reverse; 
+            padding-top: 2%;          
+        }
+        
+        .innerT{
+            width: 50%;
+            @media @tablet{
+                width: 80%;         
+            }
+            padding: 2% 2%;
+            background-color: @innerBox;
+            h2{
+                font-size: 6rem;
+            }
+            p{
+                font-size: 3rem;
+            }
+            i{
+                background-color: @marginColor;
+                font-size: 3rem;
+                padding: 2%;
+                border-radius: 50%;
+                color: @innerBox;
+                margin: 0% 1%;
+                &:hover{
+                    background-color: @innerBox;
+                    color: @marginColor;
+                }
+
+        }
+        .innerI{
+            width: 50%;
+            .flexOuterJAD(center, center, row);
+            background-color: @innerBox;
+
+            
+        }
+    };
+
+}}
