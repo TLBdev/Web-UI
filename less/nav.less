@@ -13,12 +13,22 @@ header{
         max-height: 19vh;
         };
         
+        
         div{
             width:49%;
             text-align: center;
             
             
         
+        }
+        h1{
+            @media @mobile{font-size: 3rem;}
+            @media @tablet{font-size: 4rem;}
+        }
+        h2{
+            @media @mobile{font-size: 2rem;}
+            @media @tablet{font-size: 2rem;}
+
         }
         nav{
             .flexOuterJAD(space-around, center, row);
@@ -37,8 +47,8 @@ header{
                 &:hover{
                     color: @textColor;
                 }
-            
-
+                @media @mobile{font-size: 2rem;}
+                @media @tablet{font-size: 2rem;}
             } 
     }
 }

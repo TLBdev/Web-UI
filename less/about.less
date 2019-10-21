@@ -1,5 +1,8 @@
 .firstTitle{
     margin-top: 20vh;
+    @media @tablet{
+        margin-top: 15vh;        
+    }
     
 }
 .secTitle{
@@ -17,12 +20,19 @@
     
     
     background-color: @outerBox;
+    
     .outer{
         width: 100%;
         .flexOuterJAD(space-around, center, row);
-        
+        @media @tablet{
+            flex-direction: column-reverse; 
+            padding-top: 2%;          
+        }
         .innerT{
             width: 45%;
+            @media @tablet{
+                width: 80%;         
+            }
             padding: 2% 2%;
             background-color: @innerBox;
             h2{
@@ -66,9 +76,16 @@
     .outer{
         width: 100%;
         .flexOuterJAD(space-around, center, row-reverse);
+        @media @tablet{
+            flex-direction: column-reverse; 
+            padding-top: 2%;          
+        }
         
         .innerT{
             width: 50%;
+            @media @tablet{
+                width: 80%;         
+            }
             padding: 2% 2%;
             background-color: @innerBox;
             h2{
