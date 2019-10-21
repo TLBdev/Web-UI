@@ -415,6 +415,11 @@ footer {
 .colPicRightA .outer .innerT h2 {
   font-size: 5rem;
 }
+@media (max-width: 820px) {
+  .colPicRightA .outer .innerT h2 {
+    text-align: center;
+  }
+}
 .colPicRightA .outer .innerT p {
   font-size: 3rem;
 }
@@ -471,6 +476,11 @@ footer {
 }
 .colPicLeftA .outer .innerT h2 {
   font-size: 6rem;
+}
+@media (max-width: 820px) {
+  .colPicLeftA .outer .innerT h2 {
+    text-align: center;
+  }
 }
 .colPicLeftA .outer .innerT p {
   font-size: 3rem;
