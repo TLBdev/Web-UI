@@ -163,6 +163,7 @@ header .outer {
   border-bottom-right-radius: 15%;
   border-bottom: 3px solid #6b4e71;
   top: 0%;
+  max-height: 19vh;
 }
 header div {
   width: 49%;
@@ -187,14 +188,18 @@ header nav a {
 header nav a:hover {
   color: #f5dddd;
 }
+footer {
+  margin: 1%;
+  text-align: center;
+}
 .colPicRight {
-  margin-top: 10%;
   border-top: 2px solid #6b4e71;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-  margin: 9% 1%;
+  margin: 1% 1%;
+  margin-top: 20vh;
   margin-bottom: 0%;
   background-color: #3a4454;
 }
@@ -268,4 +273,103 @@ header nav a:hover {
 }
 .threeCol div p {
   font-size: 2rem;
+}
+.firstTitle {
+  margin-top: 20vh;
+}
+.secTitle {
+  text-align: center;
+}
+.colPicRightA {
+  border-top: 2px solid #6b4e71;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin: 1% 1%;
+  background-color: #3a4454;
+}
+.colPicRightA .outer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.colPicRightA .outer .innerT {
+  width: 45%;
+  padding: 2% 2%;
+  background-color: #3a4454;
+}
+.colPicRightA .outer .innerT h2 {
+  font-size: 5rem;
+}
+.colPicRightA .outer .innerT p {
+  font-size: 3rem;
+}
+.colPicRightA .outer .innerT i {
+  background-color: #53687e;
+  font-size: 3rem;
+  padding: 2%;
+  border-radius: 50%;
+  color: #3a4454;
+  margin: 0% 1%;
+}
+.colPicRightA .outer .innerT i:hover {
+  background-color: #3a4454;
+  color: #53687e;
+}
+.colPicRightA .outer .innerI {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #3a4454;
+}
+.colPicLeftA {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 1% 1%;
+  background-color: #3a4454;
+}
+.colPicLeftA .outer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.colPicLeftA .outer .innerT {
+  width: 50%;
+  padding: 2% 2%;
+  background-color: #3a4454;
+}
+.colPicLeftA .outer .innerT h2 {
+  font-size: 6rem;
+}
+.colPicLeftA .outer .innerT p {
+  font-size: 3rem;
+}
+.colPicLeftA .outer .innerT i {
+  background-color: #53687e;
+  font-size: 3rem;
+  padding: 2%;
+  border-radius: 50%;
+  color: #3a4454;
+  margin: 0% 1%;
+}
+.colPicLeftA .outer .innerT i:hover {
+  background-color: #3a4454;
+  color: #53687e;
+}
+.colPicLeftA .outer .innerT .innerI {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #3a4454;
 }
